@@ -1,4 +1,4 @@
-# Download Images From Image Search Engine
+# Download Images From Search Engine
 
 Download images including urls from Google, Bing, Flickr, Instagram with given keyword
 
