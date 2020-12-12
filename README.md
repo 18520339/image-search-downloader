@@ -44,7 +44,7 @@ optional arguments:
   -h, --help                      show this help message and exit
   -o OUT, --out OUT               path to images directory
   -k KEYWORD, --keyword KEYWORD   search query for API
-  -p PER, --per PER               number results per requests
+  -p PER, --per PER               number of results per requests
   -m MAX, --max MAX               total results
 ```
 
@@ -59,7 +59,7 @@ optional arguments:
   -h, --help                      show this help message and exit
   -o OUT, --out OUT               path to images directory
   -k KEYWORD, --keyword KEYWORD   search query for API
-  -p PER, --per PER               number results per requests
+  -p PER, --per PER               number of results per requests
   -m MAX, --max MAX               total results
 ```
 
