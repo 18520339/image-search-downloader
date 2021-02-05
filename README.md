@@ -20,10 +20,11 @@ Copy these following information to corresponding fields in the `secret.ini` fil
 
 -   Press F12 and go to Network Panel
 -   In the Name column, click csp_report/ or the one that has maximum time in the Time column
--   Copy the string of cookie in Request Headers
--   Note:
-    - Signing in is required
-    - Instagram images will be expired after a certain period of time which can be found in the `oe` params of url. This is an Unix hexadecimal timestamp and can be [convert to human-readable date](https://www.epochconverter.com/hex)
+-   Copy value of the `cookie` param in **Request Headers**
+-   Note that:
+    - Because of using **Cookie**, signing in is required
+    - Instagram images will be **expired** after a certain period of time which can be found in the `oe` params of url. 
+    - The expired time is an **Unix hexadecimal timestamp** and can be [convert to human-readable date](https://www.epochconverter.com/hex)
     
 ![](https://raw.githubusercontent.com/18520339/image-search-downloader/main/images/instagram.png)
 
