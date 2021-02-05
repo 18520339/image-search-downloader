@@ -4,7 +4,7 @@ Download images including urls from Google, Bing, Flickr, Instagram with given k
 
 > Demo: https://www.youtube.com/watch?v=zfMBE3D9IG4
 
-## Configuration
+## Preparation
 
 Copy these following information to corresponding fields in the `secret.ini` file
 
@@ -19,9 +19,12 @@ Copy these following information to corresponding fields in the `secret.ini` fil
 **3. Instagram:** https://www.instagram.com/explore/tags/?__a=1
 
 -   Press F12 and go to Network Panel
--   Click csp_report/ in the Name column
+-   In the Name column, click csp_report/ or the one that has maximum time in the Time column
 -   Copy the string of cookie in Request Headers
-
+-   Note:
+    - Signing in is required
+    - Instagram images will be expired after a certain period of time which can be found in the `oe` params of url. This is an Unix hexadecimal timestamp and can be [convert to human-readable date](https://www.epochconverter.com/hex)
+    
 ![](https://raw.githubusercontent.com/18520339/image-search-downloader/main/images/instagram.png)
 
 ## Usage
