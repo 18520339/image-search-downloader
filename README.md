@@ -23,7 +23,7 @@ Copy these following information to corresponding fields in the `secret.ini` fil
 -   Copy value of the `cookie` param in **Request Headers**
 -   Note that:
     - Because of using **Cookie**, signing in is required
-    - Instagram images will be **expired** after a certain period of time which can be found in the `oe` params of url. 
+    - Instagram images will be **expired** after a certain period of time which can be found in the `oe` param of image url. For example: oe=604645EF.
     - The expired time is an **Unix hexadecimal timestamp** and can be [convert to human-readable date](https://www.epochconverter.com/hex)
     
 ![](https://raw.githubusercontent.com/18520339/image-search-downloader/main/images/instagram.png)
